@@ -10,7 +10,7 @@ import {
 import { useState } from "react";
 
 const Navbar = () => {
-  const [user, setUser] = useState({ name: "John Doe" });
+  const [user] = useState({ name: "John Doe" });
 
   return (
     <div className="w-full bg-[#edede9] flex p-2">
