@@ -5,8 +5,8 @@ import ProductSlider from "./ProductSlider";
 
 const Product = () => {
   return (
-    <div className="w-full bg-[#edede9] flex">
-      <div className="flex-col w-full p-2 mx-[10%]  mt-14 mb-28">
+    <div className="w-full bg-white flex">
+      <div className="flex-col w-full p-2 mx-8  mt-14 mb-28">
         {/* product name */}
         <div className="flex flex-col w-full lg:pl-11">
           <p>
@@ -15,7 +15,7 @@ const Product = () => {
           </p>
         </div>
 
-        <div className="flex flex-col w-full gap-24 mt-5 justify-between items-center lg:flex-row lg:items-start">
+        <div className="flex flex-col w-full gap-24 mt-5  items-center lg:flex-row lg:items-start">
           {/* Product gallery column */}
 
           <div className="flex flex-col lg:w-[30%]">

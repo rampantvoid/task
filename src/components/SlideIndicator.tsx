@@ -14,7 +14,7 @@ const SlideIndicator = ({
           key={index}
           onClick={() => scroll(index)}
           className={`w-3 h-3 mx-2 cursor-pointer rounded-full border-gray-400 border-[1px] ${
-            index === activeIndex ? "bg-indigo-500" : "bg-gray-100"
+            index === activeIndex ? "bg-gray-500" : "bg-gray-100"
           }`}
         ></span>
       ))}

@@ -1,9 +1,14 @@
 const Footer = () => {
+  const toTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <>
-      <div className="bg-[#ced4da] p-4 flex min-h-[30vh]">
-        <div className="flex flex-col mx-[10%] w-full items-center gap-10">
-          <p className="font-bold">Back to top</p>
+      <div className="bg-[#c5c5c5] p-4 flex min-h-[30vh]">
+        <div className="flex flex-col mx-[10%] w-full items-center gap-20">
+          <p className="font-bold hover:cursor-pointer" onClick={() => toTop()}>
+            Back to top
+          </p>
           <div className="flex justify-evenly w-full flex-col gap-10 lg:flex-row">
             <div className="flex flex-col gap-2">
               <p className="font-bold">Get to know us</p>
